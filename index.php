@@ -76,7 +76,7 @@
                         <td><?=$item['nome']?></td>
                         <td><?=$item['desc']?></td>
                         <td><?=$item['valor']?></td>
-                        <td><?=$item['img']?></td>
+                        <td><img src="<?=$item['img']?>" alt="<?=$item['nome']?>"></td>
                         <td><?=$item['categ']?></td>
 
                         <td><a href="index.php?id=<?=$id?>">Editar</a> | <a href="apagar.php?id=<?=$id?>">Apagar</a></td>
